@@ -1,3 +1,10 @@
 language: node_js
 node_js:
-  - "6"
+- '6'
+deploy:
+  provider: heroku
+  api_key:
+    secure: BaLQvKzC56/stD6qNhXed7GJoXA99j2TdLrFfxr641eHo8ebLQgtyil/IJUraLzIH3nYwYpWWiT06JHjdqnX6uJ259eYNyZ4YKKvCvQgLDvjz2Mlu6LvazbgU4X383CLQjq0zaKk289s/wm5Po5SRyc/YJCKlgM2z8WE4Oy9yEcYYgyH/0FyvlcEzhoBiC89ZywsV4NoUA1Z/BZ0sVL2Is3NMMAE90DziTwxBDUBXUJGfNQ/7GqzrF7grLsRA2Qd9gJpMtyYzuWngoSzDp/QSfcOIFpqbgCHL2QD+hcvdv6Td6s/rPxebJiSAQZfy/995QilJyoUHfqUKKezKgxiIgRCgDLy4EUooSTN41X6FmswHPYoCXSay+dTYIWe2hPS3jeGJO8F5FnI9G1eEkeS8477ZLJv/H64u5JEbEdZ+qk/YBNUbE5qZWLZSzi3DnfmC9n4V07mD69Xh3431H3ko0jpGJcuGfeUARWvH+vkEEBwjnIevdu5trn1bz0sgc6rgjcNdVZ17KiiAiA7R1vHg74OekZKYLK7ebKWhPt1ug447pWiKxsJzvLKrzKEzRSD61YzYfN8oIs+muYKHWHhySwvjfTZYUX9TuvKJfLwENQwm36w7ccCb94yBDifXCobH+mLXmpp8SrsL1lnHmxZKaG5ovNmvWLpIOguudM23VY=
+  app: secure-tundra-20496
+  on:
+    repo: steveszc/light-letters-api
